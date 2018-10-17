@@ -1,0 +1,12 @@
+.class1 {
+    font-family: monospace, serif;
+    color:black;
+}
+
+.class2 {
+    color: red;
+    font-family: inherit, serif;
+}
+html {
+    background-color: MediumSeaGreen;
+}
