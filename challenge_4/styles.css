@@ -4,8 +4,13 @@ body {
 
 #green {
     background-color: #015249;
+    margin-bottom: 0px;
 }
 
 #gold{
     color: #FFD700;
+}
+
+#marge{
+    margin-top: 25px;
 }
