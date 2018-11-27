@@ -9,8 +9,18 @@ body {
 
 #gold{
     color: #FFD700;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
 }
-
+#center{
+    margin: auto;
+}
 #marge{
     margin-top: 25px;
+}
+.card {
+        margin: auto;
+        float: none;
+        margin-bottom: 10px;
+        border: 4px solid #FFD700;
 }
