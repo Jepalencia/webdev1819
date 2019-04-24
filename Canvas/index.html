@@ -18,9 +18,10 @@
         <script>
         var c = document.getElementById("myCanvas");
         var ctx = c.getContext("2d");
+        var xPos = -500;
         function drawInitials(){
         // Create gradient
-        var grd = ctx.createRadialGradient(50,50,50,220,250,540);
+        var grd = ctx.createRadialGradient(xPos,xPos,120,220,250,540);
         grd.addColorStop(0, 'red');
         grd.addColorStop(1 / 7, 'orange');
         grd.addColorStop(2 / 7, 'yellow');
@@ -34,6 +35,7 @@
         ctx.fillStyle = grd;
         ctx.fillRect(0,0,800,600);
         
+        // Initials
         ctx.fillStyle = "green";
         ctx.fillRect(175, 150, 200, 50);
         ctx.fillRect(150, 400, 150, 50);
@@ -46,7 +48,14 @@
         ctx.fillRect(500, 250, 100, 50);  //line closing gap of P
         ctx.fillRect(450, 200, 50, 250); //line down for P
         ctx.stroke();
-        //ctx.clearRect(0, 0, 800, 600); for animation
+        
+        xPos += 5;
+ 
+         if (xPos > 1000) {
+            xPos = -500;
+         }
+  
+        requestAnimationFrame(drawInitials);
         }
         drawInitials();
 </script> 
