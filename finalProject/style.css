@@ -1,0 +1,140 @@
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero-tall-002.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#learn{
+  font-family: 'Oswald', sans-serif;
+  text-align: right;
+  letter-spacing: 3px;
+  padding-right: 50px;
+}
+#alignRight{
+  text-align: right;
+}
+
+#img{
+  position: absolute;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-120%, -40%);
+  color: white;
+}
+
+#centerText{
+  text-align: center;
+}
+
+#rightText{
+  text-align: right;
+}
+
+#leftPad{
+  padding-left: 110px;
+  border-left: 3px solid gray;
+}
+
+#paddingLab{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 35px
+}
+#TBPad{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.right {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.absolute {
+  position: absolute;
+  top: 60px;
+  right: 1595px;
+  width: 200px;
+  height: 100px;
+}
+
+#float-right{
+  clear: left;
+  float: right;
+  text-align: right;
+  position: absolute;
+}
+
+#icon{
+  clear: left;
+  float: right;
+}
+
+#black{
+  background-color: black;
+}
+
+#offWhite{
+  background-color: #E5E5E5;
+}
+
+#darkGray{
+  background-color: #373737;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 2px;
+}
+
+#happyGirl {
+  padding-top: 20px;
+  display: block;
+  margin-right: auto;
+  width: 90%;
+}
+#center{
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 20px;
+}
+#paddingbottom{
+  padding-bottom: 20px;
+}
+
+#paddingtop{
+  padding-top: 20px;
+  padding-right: 80px;
+  padding-bottom: 20px;
+}
+
+.white {
+  color: white;
+}
+
+#cen{
+  text-align: right;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
